@@ -30,9 +30,7 @@ app.use(session({
 
 }))
 
-app.use('/', (req, res) => {
-  res.send('Hello, World!');
-});
+
 
 app.use("/api/users",userRoutes)
 
